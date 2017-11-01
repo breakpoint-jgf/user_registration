@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+    version="2.0">
+<description>Custom Tags for SoftToken</description>
+<tlib-version>1.0</tlib-version>
+<short-name>custom_tags</short-name>
+<uri>http://www.jstl-project-senpai-functions.com</uri>
+<tag>
+	<name>error</name>
+	<tag-class>com.project.senpai.tags.ErrorMessageTag</tag-class>
+	<body-content>tagdependent</body-content>
+	<attribute>
+	<name>fieldName</name>
+	<required>true</required>
+	<rtexprvalue>true</rtexprvalue>
+	<type>java.lang.String</type>
+	</attribute>
+</tag>
+</taglib>
